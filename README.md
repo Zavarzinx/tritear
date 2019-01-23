@@ -3,7 +3,7 @@ Small app
 
 ## Installation
 
-Please edit application.properties before launch - database, mail server and captcha key. Also add captcha key in login.ftl.
+Please edit application.properties before launch - database, mail server, upload path and captcha key. Also add captcha key in login.ftl.
 example
 
 application.properties
@@ -11,6 +11,8 @@ application.properties
 spring.datasource.url=jdbc:postgresql://localhost/tritear
 spring.datasource.username=postgres
 spring.datasource.password=123456
+
+upload.path=/C:/Users/User/tritear/uploads
 
 spring.mail.host=smtp.yandex.ru
 spring.mail.username=me@yandex.ru
