@@ -1,5 +1,5 @@
 # tritear
-Small app
+Simple twitter clone
 
 ## Installation
 
