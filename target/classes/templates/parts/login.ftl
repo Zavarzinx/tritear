@@ -54,7 +54,7 @@ class="form-control ${(passwordError??)?string('is-invalid', '')}"
         </div>
         </div>
         <div class="col-sm-6">
-            <div class="g-recaptcha" data-sitekey="6LcrV4kUAAAAAB8Nhq8PpxUbVrZZ5HDupw3vbIaR"></div>
+            <div class="g-recaptcha" data-sitekey=""></div>
         <#if captchaError??>
             <div class="alert alert-danger" role="alert">
             ${captchaError}
